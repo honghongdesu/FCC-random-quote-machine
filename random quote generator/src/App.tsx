@@ -13,13 +13,7 @@ const getRandomQuote = (): Quote => {
 }
 
 const getRandomColor = () :  string => {
-  const red = Math.floor((Math.random() * 56)+150);
-  const green = Math.floor((Math.random() * 56)+150);
-  const blue = Math.floor((Math.random() * 56)+150);
-  
   return `hsl(` + Math.random() *360 + `, 40%, 70%)`;
-
-  //return `rgb(${red}, ${green}, ${blue})`;
 }
 
 const transition = "all 1s";
